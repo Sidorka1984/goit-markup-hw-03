@@ -1,0 +1,193 @@
+:root {
+  --accent-color: #2196f3;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+}
+body {
+  font-family: var(--main-font);
+  background-color: var(--primary-background-color);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.address {
+  font-style: normal;
+}
+/*========header===================*/
+.logo-light,
+.logo-accent {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.153;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo-dark {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+.menu-link,
+.header-mail,
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.menu-item .is-current:hover,
+.menu-item .is-current:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus,
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.menu-item .is-current {
+  color: var(--accent-color);
+}
+
+.header-mail,
+.header-tel {
+  color: var(--secondary-text-color);
+}
+/*===================end header==============*/
+/*===================hero==============*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero {
+  background-color: var(--secondary-background-color);
+}
+.hero-button {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+/*===================end hero==============*/
+
+/*===================end header==============*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*===================это мы==============*/
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+.about-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.gallery-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/*===================end это мы=============*/
+/*===================команда ================*/
+.teams {
+  background-color: #f5f4fa;
+}
+.teams-persons,
+.persons-job {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.persons-job {
+  font-weight: 400;
+  color: var(--secondary-text-color);
+}
+/*=================== end команда ================*/
+
+.dark {
+  background-color: var(--secondary-background-color);
+}
+.address-position,
+.footer-mail,
+.footer-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-mail,
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+/*=================end footer dark================*/
+/* ================portfolio===============*/
+.button-filter {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.filter-caption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.caption-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.button-filter:hover,
+.button-filter:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+/* ================portfolio===============*/
