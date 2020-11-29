@@ -156,6 +156,11 @@ img {
   min-width: 200px;
   min-height: 50px;
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+  padding: 10px 32px;
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
@@ -163,9 +168,6 @@ img {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--accent-color);
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 32px;
 }
 /*===================end hero==============*/
 
@@ -208,15 +210,36 @@ img {
   color: var(--secondary-text-color);
   width: 270px;
 }
+/*===================end это мы=============*/
+/*===================Чем мы занимаемся=============*/
+
+.gallery-list {
+  display: flex;
+  padding-bottom: 94px;
+}
+.gallery-item:not(:last-child) {
+  margin-right: 30px;
+}
 .gallery-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-bottom: 50px;
+  text-align: center;
 }
-/*===================end это мы=============*/
+
+/*=================== end Чем мы занимаемся=============*/
 /*===================команда ================*/
+.teams-list {
+  display: flex;
+  padding-bottom: 94px;
+  margin-top: 50px;
+}
+.teams-item:not(:last-child) {
+  margin-right: 30px;
+}
 .teams {
   background-color: #f5f4fa;
 }
