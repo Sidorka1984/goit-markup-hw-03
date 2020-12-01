@@ -41,6 +41,7 @@ p {
 img {
   display: block;
 }
+
 .address {
   font-style: normal;
 }
@@ -138,6 +139,8 @@ img {
   padding-left: 485px;
   padding-right: 493px;
   width: 1600px;
+  min-width: 400px;
+  margin: 0;
 }
 .hero-title {
   font-weight: 900;
@@ -145,9 +148,10 @@ img {
   line-height: 1.363;
   text-transform: uppercase;
   color: #ffffff;
-  width: 650px;
+  min-width: 696px;
   height: 120px;
   margin-bottom: 30px;
+  letter-spacing: 0.06em;
 }
 
 .hero-button {
@@ -243,6 +247,11 @@ img {
 .teams {
   background-color: #f5f4fa;
 }
+.teams-wrapper {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .teams-persons,
 .persons-job {
   font-weight: 500;
@@ -254,6 +263,7 @@ img {
 .persons-job {
   font-weight: 400;
   color: var(--secondary-text-color);
+  margin-top: 10px;
 }
 /*=================== end команда ================*/
 
@@ -275,6 +285,9 @@ img {
 }
 /*=================end footer dark================*/
 /* ================portfolio===============*/
+.dark {
+  padding-top: 60px;
+}
 .button-filter {
   font-family: var(--main-font);
   font-weight: 500;
@@ -296,6 +309,13 @@ img {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+.address-position {
+  margin-top: 30px;
+  margin-bottom: 9px;
+}
+.footer-mail-tel {
+  margin-bottom: 9px;
 }
 .button-filter:hover,
 .button-filter:focus {
