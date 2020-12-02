@@ -304,7 +304,9 @@ img {
 .footer-mail-tel {
   margin-bottom: 9px;
 }
-
+.footer-address {
+  padding-bottom: 60px;
+}
 /*=================end footer dark================*/
 /* ================portfolio===============*/
 .filter-portfolio {
