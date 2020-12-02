@@ -310,7 +310,10 @@ img {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 94px;
+  outline: none;
+  border: none;
 }
+
 .btn-portfolio {
   margin: 8px;
   border-radius: 4px;
