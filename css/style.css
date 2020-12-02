@@ -145,7 +145,7 @@ img {
   padding-bottom: 200px;
   padding-left: 452px;
   padding-right: 452px;
-  width: 1600px;
+  min-width: 1600px;
 }
 .hero-title {
   font-weight: 900;
@@ -154,7 +154,7 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   min-width: 696px;
-  height: 120px;
+  min-height: 120px;
 
   letter-spacing: 0.06em;
 }
