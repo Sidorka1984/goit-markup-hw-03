@@ -328,17 +328,18 @@ img {
 }
 /*=================end footer dark================*/
 /* ================portfolio===============*/
-
+.filter {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .filter-portfolio {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 34px;
+  padding-bottom: 50px;
   justify-content: center;
 }
 .filter-gallery {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
   outline: none;
   border: none;
   margin-right: -30px;
@@ -348,6 +349,7 @@ img {
 .btn-portfolio {
   margin: 8px;
   border-radius: 4px;
+  padding: 0;
 }
 .button-filter {
   font-family: var(--main-font);
@@ -358,7 +360,7 @@ img {
   color: var(--primary-text-color);
   outline: none;
   border: none;
-  background-color: transparent;
+  background-color: #f5f4fa;
 }
 .filter-gallery-item {
   width: 370px;
