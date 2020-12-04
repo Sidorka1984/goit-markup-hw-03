@@ -6,6 +6,7 @@
   --secondary-text-color: #757575;
   --primary-background-color: #ffffff;
   --secondary-background-color: #2f303a;
+  --card-set-gap: 30px;
 }
 body {
   font-family: var(--main-font);
@@ -200,11 +201,11 @@ img {
 }
 .about-list {
   display: flex;
-  margin-right: -30px;
+  margin-right: calc(-1 * var(--card-set-gap));
 }
 .about-list-item {
-  margin-right: 30px;
-  width: calc(100% / 4 - 30px);
+  margin-right: var(--card-set-gap);
+  flex-basis: calc(100% / 4 - var(--card-set-gap));
 }
 .visually-hidden {
   position: absolute;
@@ -243,11 +244,11 @@ img {
 }
 .gallery-list {
   display: flex;
-  margin-right: -30px;
+  margin-right: calc(-1 * var(--card-set-gap));
 }
 .gallery-item {
-  margin-right: 30px;
-  width: calc(100% / 3 - 30px);
+  margin-right: var(--card-set-gap);
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
 }
 .gallery-title {
   font-weight: 700;
@@ -264,12 +265,12 @@ img {
 .teams-list {
   display: flex;
   margin-top: 50px;
-  margin-right: -30px;
+  margin-right: calc(-1 * var(--card-set-gap));
 }
 
 .teams-item {
-  margin-right: 30px;
-  width: calc(100% / 4 - 30px);
+  margin-right: var(--card-set-gap);
+  flex-basis: calc(100% / 4 - var(--card-set-gap));
 }
 .teams {
   background-color: #f5f4fa;
@@ -344,20 +345,11 @@ img {
   padding-bottom: 50px;
   justify-content: center;
 }
-.filter-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  outline: none;
-  border: none;
-  padding: 0;
-  margin: 0;
-  margin-right: -30px;
-  margin-bottom: -30px;
-}
 
 .btn-portfolio {
   margin: 8px;
 }
+
 .button-filter {
   font-family: var(--main-font);
   font-weight: 500;
@@ -377,13 +369,24 @@ img {
   border-radius: 4px;
 }
 
-.filter-gallery-item {
-  flex-basis: calc(100% / 3 - 30px);
+.filter-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  margin-right: calc(-1 * var(--card-set-gap));
+  margin-bottom: calc(-1 * var(--card-set-gap));
+}
+
+.filter-gallery > .filter-gallery-item {
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
   max-width: 370px;
   outline: none;
   border: none;
-  margin-right: 30px;
-  margin-bottom: 30px;
+  margin-right: var(--card-set-gap);
+  margin-bottom: var(--card-set-gap);
 }
 
 .filter-caption {
