@@ -12,6 +12,10 @@ body {
   font-family: var(--main-font);
   background-color: var(--primary-background-color);
 }
+* {
+  box-sizing: border-box;
+}
+
 .list {
   list-style: none;
 }
@@ -263,6 +267,10 @@ img {
 
 /*=================== end Чем мы занимаемся=============*/
 /*===================команда ================*/
+.portfolio .container {
+  box-sizing: border-box;
+}
+
 .teams-list {
   display: flex;
   margin-top: 50px;
@@ -337,7 +345,9 @@ img {
 }
 /*=================end footer dark================*/
 /* ================portfolio===============*/
-
+.header-portfolio .container {
+  box-sizing: border-box;
+}
 .filter {
   padding-top: 94px;
   padding-bottom: 94px;
